@@ -16,6 +16,6 @@ COLOUR_SIZE     = $0300 ; Length of the colour data
 
 ROM_CLS         = $0DAF ; Address of ROM CLS function
 ROM_PRINT       = $15F2 ; Address of Print function (print a char)
-
+ROM_CHANNEL     = $5633 ; Select channel (1 = lower screen, 2 = upper screen)
 ; User-Defined Graphics
 ; FF58 -> FFFF

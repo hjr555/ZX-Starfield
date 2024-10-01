@@ -10,6 +10,8 @@ string_copyright
     defb copyri, " 2024 Hywel Rees", 0
 
 start:
+    LD A, 1             ; Set channel (1 = lower screen, 2 = upper screen)
+    CALL ROM_CHANNEL    
     ld hl, string_copyright
 
 print_char:
